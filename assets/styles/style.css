@@ -221,6 +221,7 @@ footer a {
 @media screen and (max-width: 800px) {
   
   .column {
+    padding-top: 20px;
     width: 100%;
   }
    .left {
