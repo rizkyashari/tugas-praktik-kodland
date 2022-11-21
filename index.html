@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Pop It</title>
+  <link href="assets/styles/style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="topnav" id="myTopnav">
+      <a href="#home" class="active">HOME</a>
+      <div style="float: right">
+        <a href="#intro">INTRO</a>
+        <a href="#shape">SHAPE</a>
+        <a href="#checkout">CHECKOUT</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </div>
+    <div id="home" class="jumbotron">
+      <h1>POP IT!</h1>
+      <p>A delicious Ice Cream for your good days.</p>
+      <a href="#shape" class="button">TASTE IT</a>
+    </div>
+  </header>
+  <main>
+    <div id="intro" class="upper">
+      <h2>Do you want to try it?</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempor, mi ut eleifend porta, ligula felis
+        consectetur lectus, eget suscipit odio lectus eget ante. Donec lacinia nunc nisi, sit amet accumsan orci
+        imperdiet a. Sed sem magna, interdum eget vestibulum id, tempor eget nunc. Nunc vel accumsan sapien. Phasellus
+        eleifend euismod ante, vel condimentum risus molestie eu. Etiam est ex, consectetur eget nisi et, vestibulum
+        porttitor tortor.</p>
+    </div>
+    <div id="shape" class="middle">
+      <h2>Choose Your Favourite Shape</h2>
+      <div class="row">
+        <div class="column">
+          <img src="assets/images/square.png" class="featured-image" />
+          <p>This is a square shape</p>
+          <a href="#intro" class="shape-button">CHOOSE</a>
+        </div>
+        <div class="column">
+          <img src="assets/images/amongus.png" class="featured-image" />
+          <p>This shape is like Among Us character</p>
+          <a href="#intro" class="shape-button">CHOOSE</a>
+        </div>
+        <div class="column">
+          <img src="assets/images/round.png" class="featured-image" />
+          <p>This is a round shape</p>
+          <a href="#intro" class="shape-button">CHOOSE</a>
+        </div>
+      </div>
+    </div>
+    <div id="checkout" class="lower">
+      <div class="row">
+        <div class="left">
+          <h2>Check this out! Don't mind too much!</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempor, mi ut eleifend porta, ligula felis
+            consectetur lectus, eget suscipit odio lectus eget ante. Nunc tempor, mi ut eleifend porta, ligula felis
+            consectetur lectus, eget suscipit odio lectus eget ante. Nunc tempor, mi ut eleifend porta, ligula felis
+            consectetur lectus, eget suscipit odio lectus eget ante.</p>
+        </div>
+        <div class="right">
+          <img class="featured-image-bottom" src="assets/images/photo.jpg" />
+        </div>
+
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-row">
+      <div class="footer-column">
+        <a href="#home">HOME</a>
+      </div>
+      <div class="footer-column">
+        <a href="#home">COVER</a>
+      </div>
+      <div class="footer-column">
+        <a href="#intro">INTRO</a>
+      </div>
+      <div class="footer-column">
+        <a href="#shape">SHAPE</a>
+      </div>
+      <div class="footer-column">
+        <a href="#checkout">CHECKOUT</a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
