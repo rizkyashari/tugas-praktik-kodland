@@ -212,14 +212,12 @@ footer a {
   padding-top: 60px;
 }
 
-@media screen and (max-width: 600px) {
-  header {
-    background-size: 600px auto;
-    height: 50%;
-  }
-}
 @media screen and (max-width: 800px) {
- 
+  header {
+    background-size: 800px auto;
+    height: 60%;
+  }
+  
   .column {
     width: 100%;
   }
